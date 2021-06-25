@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="aaa">
+
+    <!--设置实体类别名-->
+
+
+
+    <!--public List<Dept> findAll(){    }-->
+    <select id="findDept" resultType="dept" >
+        select * from dept
+    </select>
+</mapper>
